@@ -33,7 +33,7 @@ h5 {
 .container {
   text-align: center;
   justify-content: center;
-  width: 28rem;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -43,12 +43,12 @@ footer {
   text-align: start;
   font-family: "Bebas Neue", sans-serif;
   color: white;
-  margin-top: auto;
 }
 
-#nombre {
-  text-align: end;
-  justify-content: end;
+#footer-curso-container #nombre {
+  width: 100%;
+  text-align: end !important;
+  justify-content: end !important;
 }
 
 
